@@ -11,11 +11,11 @@
 *
 */
 
-exports.server = 'localhost';
+exports.server = 'sim.smogon.com';
 
 exports.port = 8000;
 
-exports.serverid = 'localhost';
+exports.serverid = 'showdown';
 
 exports.autoReconnectDelay = 10 * 1000;
 exports.connectionTimeout = 2 * 60 * 1000;
@@ -44,9 +44,9 @@ exports.watchconfig = true;
 * Login Details
 */
 
-exports.nick = '';
+exports.nick = 'Bot Harrison';
 
-exports.pass = '';
+exports.pass = 'khush';
 
 exports.autoReloginDelay = 60 * 1000;
 
@@ -85,9 +85,9 @@ exports.exceptions = {
 * 'userid': 'rank' or 'userid': true for full access
 * Example:
 *
-* exports.exceptions = {
-*	'ecuacion': true,
-*	'excepted': true
+ exports.exceptions = {
+	'paul71': true,
+	'excepted': true
 * };
 *
 */
